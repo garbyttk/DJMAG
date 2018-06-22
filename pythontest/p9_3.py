@@ -11,8 +11,8 @@ np.random.seed(19680801)
 
 # histogram our data with numpy
 
-data = np.random.randn(1000)
-n, bins = np.histogram(data, 50)
+data = np.random.randn(100000)
+n, bins = np.histogram(data, 30)
 
 # get the corners of the rectangles for the histogram
 left = np.array(bins[:-1])
